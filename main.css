@@ -1,0 +1,87 @@
+body{
+    background-image: url('clouds.jpg');
+    background-size: cover;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav_bar{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_bar > li{
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+#nav_bar > li > a:hover{
+    color: brown;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+  }
+
+#header_title{
+    margin-top: 60px;
+    margin-bottom: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+footer{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery{
+    display: flex;
+    gap: 15px;
+}
+
+.gallery img{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.gallery img:hover{
+    flex: 8;
+}
+
+.social_net_button{
+    width: 30px;
+    height: 30px;
+}
